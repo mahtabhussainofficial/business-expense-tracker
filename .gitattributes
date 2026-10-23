@@ -1,4 +1,0 @@
-*.html linguist-detectable=true
-*.css linguist-detectable=true
-database.db linguist-generated=true
-templates/ linguist-vendored=true
