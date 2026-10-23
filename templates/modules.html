@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upgrade to Premium Modules</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f6; margin: 0; padding: 20px; }
+        .container { max-width: 900px; margin: auto; }
+        .header { text-align: center; margin-bottom: 40px; }
+        .header h1 { color: #2c3e50; }
+        .header p { color: #7f8c8d; font-size: 16px; }
+        
+        .module-grid { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+        
+        .module-card {
+            background: white; border-radius: 12px; padding: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05); width: 350px;
+            border-top: 5px solid #e74c3c; text-align: center;
+        }
+        .module-card h2 { color: #2c3e50; margin-top: 0; }
+        .price { font-size: 24px; font-weight: bold; color: #e74c3c; margin: 15px 0; }
+        .features { text-align: left; margin: 20px 0; color: #555; line-height: 1.8; }
+        .features li { list-style-type: '✔️ '; }
+        
+        .btn-upgrade {
+            display: inline-block; background: #e74c3c; color: white;
+            padding: 12px 25px; text-decoration: none; border-radius: 6px;
+            font-weight: bold; font-size: 16px; transition: 0.3s;
+        }
+        .btn-upgrade:hover { background: #c0392b; }
+        .btn-back { display: block; text-align: center; margin-top: 30px; color: #7f8c8d; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>Expand Your Business Capabilities</h1>
+        <p>Unlock niche-specific tools designed to solve your exact industry problems.</p>
+    </div>
+
+    <div class="module-grid">
+        <!-- Restaurant Pro Module -->
+        <div class="module-card">
+            <h2>🍽️ Restaurant & Cafe Pro</h2>
+            <div class="price">7-Day Free Trial</div>
+            <p style="color: #7f8c8d; font-size: 14px;">Perfect for cafes, dhabas, and dine-ins.</p>
+            
+            <ul class="features">
+                <li>Daily Cash/Galla Closing Analytics</li>
+                <li>Raw Material & Dairy Tracking</li>
+                <li>Wastage & Spoilage Logs</li>
+                <li>Smart Recipe Costing Breakdown</li>
+            </ul>
+            
+            <a href="/activate_restaurant" class="btn-upgrade">Activate Restaurant Mode</a>
+        </div>
+        
+        <!-- Future Modules can go here -->
+    </div>
+
+    <a href="/" class="btn-back">← Back to General Dashboard</a>
+</div>
+
+</body>
+</html>
